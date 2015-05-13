@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ site.description }}">
+
+  <title>
+    {% if page.title == "Home" %}
+      Built By Moroccan Devs
+    {% else if %}
+      {{ page.title }} &middot; Built By Moroccan Devs
+    {% endif %}
+  </title>
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
+</head>
+<body>
+  <div class="main-sidebar">
+    <h1><a href="/" class="site-name">Built By Moroccan Devs</a></h1>
+    <p class="subtitle">Awesome stuff built by Moroccan developers.</p>
+    <p class="byline">Curated by <a href="https://twitter.com/arkhamdev">@arkhamvev</a> and <a href="https://twitter.com/thekroniker">@thekroniker</a></p>
+
+    <hr class="main-sidebar-hr">
+
+    {% include navigation.html %}
+
+    <hr class="main-sidebar-hr">
+
+  </div>
+  <div class="main-container">
+    {{ content }}
+  </div>
+
+</body>
+</html>
