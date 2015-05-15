@@ -2,7 +2,7 @@
 
 A place for Moroccan developers to showcase their awesome projects.
 
-We think it might be a good idea to have a site listing all the cool projects built by Moroccans developers so we can showcase their talent to the world, and bring the Moroccan community together.
+We think it might be a good idea to have a site listing all the cool projects built by Moroccan developers so we can showcase their talent to the world, and bring the Moroccan community together.
 
 ## Submissions
 We are trying to keep the site submission quality as high as possible. Please only submit real world applications.
