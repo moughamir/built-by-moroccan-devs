@@ -15,13 +15,19 @@
   </title>
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
+
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ " /feed.xml " | prepend: site.baseurl | prepend: site.url }}" />
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+<!-- Schema.org | ogp.me | dev.twitter.com/card -->
+  <meta itemprop="name" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta itemprop="description" name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
 </head>
-<body>
+<body itemscope itemtype="http://schema.org/WebPage">
   <div class="main-sidebar">
     <h1><a href="/" class="site-name">Built By Moroccan Devs</a></h1>
     <p class="subtitle">Awesome stuff built by Moroccan developers.</p>
-    <p class="byline">Curated by <a href="https://twitter.com/arkhamdev">@arkhamvev</a> and <a href="https://twitter.com/thekroniker">@thekroniker</a></p>
+    <p class="byline">Created by <a href="https://twitter.com/arkhamdev">@arkhamvev</a> and <a href="https://twitter.com/thekroniker">@thekroniker</a></p>
 
     <hr class="main-sidebar-hr">
 

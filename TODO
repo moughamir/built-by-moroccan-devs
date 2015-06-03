@@ -1,5 +1,20 @@
 Adding new features to Built By Moroccan Devs:
 
-[] add new meta : tag/Category
-[] add Data file @JSON (Projects)
+☐ add new meta : tag/Category
+  ☐ Author
+  ☐ Description
+☐ add Data file @JSON (Projects)
 
+Add Some Rich Markup:
+  ☐ Page schema
+  ☐ Author
+    ☐ Links
+
+
+    ==========
+    Temporary TODO : @created(15-05-28 01:03)
+   
+   ☐ Add new Hover Effect
+   {
+   figure.screenshot>(img[alt+src]+figcaption>h2+p.icons>a*3[info, share, like])
+   }

@@ -5,9 +5,14 @@
 .AppleDouble
 .LSOverride
 
+# ms-Windows
+Thumbs.db
+
 # Icon must end with two \r
 Icon
 
+# IDE
+*.sublime-*
 
 # Thumbnails
 ._*
